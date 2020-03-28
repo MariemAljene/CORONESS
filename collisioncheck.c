@@ -1,49 +1,49 @@
 bool checkCollision( SDL_Rect a, SDL_Rect b )//adresse ou valeur *? 
 {
-    //The sides of the rectangles
-    int leftA, leftB;
-    int rightA, rightB;
-    int topA, topB;
-    int bottomA, bottomB;
+    //les cotes des rectangles
+    int gaucheA, gaucheB;
+    int droitA, droitB;
+    int hautA, hautB;
+    int basA, basB;
 
-    //Calculate the sides of rect A
-    leftA = a.x;
-    rightA = a.x + a.w;
-    topA = a.y;
-    bottomA = a.y + a.h;
+    //calculer les cotes  rect A
+    gaucheA = a.x;
+    droitA = a.x + a.w;
+    hautA = a.y;
+    basA = a.y + a.h;
 
-    //Calculate the sides of rect B
-    leftB = b.x;
-    rightB = b.x + b.w;
-    topB = b.y; 
-    bottomB = b.y + b.h;
+    //calculer les cotes  rect B
+    gaucheB = b.x;
+    droitB = b.x + b.w;
+    hautB = b.y; 
+    basB = b.y + b.h;
 
-    //If any of the sides from A are outside of B
-    if( bottomA <= topB )
+    //si un des cotes de A sont en dehors de B
+    if( basA <= hautB )
     {
         return false;
     }
 
-    if( topA >= bottomB )
+    if( hautA >= basB )
     {
         return false;
     }
 
-    if( rightA <= leftB )
+    if( droitA <= gaucheB )
     {
         return false;
     }
 
-    if( leftA >= rightB )
+    if( gaucheA >= droitB )
     {
         return false;
     }
 
-    //If none of the sides from A are outside B
+    // si aucun des cotes cotes de A n est en dehors du B
     return true;
 }
 
 
-//apeller fonction collision dans le mouvement du personnage left right .. (!collision (..)) apres chaque mouvement 
+//apeller fonction collision dans le mouvement du personnage left right .. (!checkCollisionn (..)) apres chaque mouvement 
 
 
