@@ -1,0 +1,163 @@
+\hypertarget{fonction_8c}{}\section{fonction.\+c File Reference}
+\label{fonction_8c}\index{fonction.\+c@{fonction.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L.\+h$>$}\newline
+{\ttfamily \#include $<$S\+D\+L/\+S\+D\+L\+\_\+image.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}fonction.\+h\char`\"{}}\newline
+Include dependency graph for fonction.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{fonction_8c_a13d5865029817259c8243186119dd6c2}{setrects\+\_\+right} (S\+D\+L\+\_\+\+Rect clip\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Toafficher image . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_af29f422070cd440deb83a1edd006973f}{setrects\+\_\+left} (S\+D\+L\+\_\+\+Rect clip\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Toafficher image . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_a8d14bf67a9e64e02d200d4bbcb88549d}{scrollingleft} (S\+D\+L\+\_\+\+Rect $\ast$rect, S\+D\+L\+\_\+\+Rect $\ast$position\+Fond)
+\begin{DoxyCompactList}\small\item\em To scrolling gauche . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_aa765dbfe8864144399be8658b5c92e69}{scrollingright} (S\+D\+L\+\_\+\+Rect $\ast$rect, S\+D\+L\+\_\+\+Rect $\ast$position\+Fond)
+\begin{DoxyCompactList}\small\item\em To scrolling droite . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_a953f5c1f30d79528e80c8a62a61efd49}{scrollingleft2} (S\+D\+L\+\_\+\+Rect $\ast$rect, S\+D\+L\+\_\+\+Rect $\ast$position\+Fond)
+\begin{DoxyCompactList}\small\item\em To scrolling gauche . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_ad1bdd94f1075a1b2aa145f217da15b22}{scrollingright2} (S\+D\+L\+\_\+\+Rect $\ast$rect, S\+D\+L\+\_\+\+Rect $\ast$position\+Fond)
+\begin{DoxyCompactList}\small\item\em To scrolling droite . \end{DoxyCompactList}\item 
+void \hyperlink{fonction_8c_a6ffcd8581ed9f687a66c1e0673bc1426}{partage} (\hyperlink{structacteur}{acteur} $\ast$\hyperlink{structacteur}{acteur})
+\begin{DoxyCompactList}\small\item\em To partage d\textquotesingle{}ecran . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{fonction_8c_a6ffcd8581ed9f687a66c1e0673bc1426}\label{fonction_8c_a6ffcd8581ed9f687a66c1e0673bc1426}} 
+\index{fonction.\+c@{fonction.\+c}!partage@{partage}}
+\index{partage@{partage}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{partage()}{partage()}}
+{\footnotesize\ttfamily void partage (\begin{DoxyParamCaption}\item[{\hyperlink{structacteur}{acteur} $\ast$}]{acteur }\end{DoxyParamCaption})}
+
+
+
+To partage d\textquotesingle{}ecran . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em acteur} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_a8d14bf67a9e64e02d200d4bbcb88549d}\label{fonction_8c_a8d14bf67a9e64e02d200d4bbcb88549d}} 
+\index{fonction.\+c@{fonction.\+c}!scrollingleft@{scrollingleft}}
+\index{scrollingleft@{scrollingleft}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{scrollingleft()}{scrollingleft()}}
+{\footnotesize\ttfamily void scrollingleft (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{rect,  }\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{position\+Fond }\end{DoxyParamCaption})}
+
+
+
+To scrolling gauche . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect} & \\
+\hline
+{\em position\+Fond} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_a953f5c1f30d79528e80c8a62a61efd49}\label{fonction_8c_a953f5c1f30d79528e80c8a62a61efd49}} 
+\index{fonction.\+c@{fonction.\+c}!scrollingleft2@{scrollingleft2}}
+\index{scrollingleft2@{scrollingleft2}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{scrollingleft2()}{scrollingleft2()}}
+{\footnotesize\ttfamily void scrollingleft2 (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{rect,  }\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{position\+Fond }\end{DoxyParamCaption})}
+
+
+
+To scrolling gauche . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect} & \\
+\hline
+{\em position\+Fond} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_aa765dbfe8864144399be8658b5c92e69}\label{fonction_8c_aa765dbfe8864144399be8658b5c92e69}} 
+\index{fonction.\+c@{fonction.\+c}!scrollingright@{scrollingright}}
+\index{scrollingright@{scrollingright}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{scrollingright()}{scrollingright()}}
+{\footnotesize\ttfamily void scrollingright (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{rect,  }\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{position\+Fond }\end{DoxyParamCaption})}
+
+
+
+To scrolling droite . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect} & \\
+\hline
+{\em position\+Fond} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_ad1bdd94f1075a1b2aa145f217da15b22}\label{fonction_8c_ad1bdd94f1075a1b2aa145f217da15b22}} 
+\index{fonction.\+c@{fonction.\+c}!scrollingright2@{scrollingright2}}
+\index{scrollingright2@{scrollingright2}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{scrollingright2()}{scrollingright2()}}
+{\footnotesize\ttfamily void scrollingright2 (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{rect,  }\item[{S\+D\+L\+\_\+\+Rect $\ast$}]{position\+Fond }\end{DoxyParamCaption})}
+
+
+
+To scrolling droite . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rect} & \\
+\hline
+{\em position\+Fond} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_af29f422070cd440deb83a1edd006973f}\label{fonction_8c_af29f422070cd440deb83a1edd006973f}} 
+\index{fonction.\+c@{fonction.\+c}!setrects\+\_\+left@{setrects\+\_\+left}}
+\index{setrects\+\_\+left@{setrects\+\_\+left}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{setrects\+\_\+left()}{setrects\_left()}}
+{\footnotesize\ttfamily void setrects\+\_\+left (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect}]{clip\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Toafficher image . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{fonction_8c_a13d5865029817259c8243186119dd6c2}\label{fonction_8c_a13d5865029817259c8243186119dd6c2}} 
+\index{fonction.\+c@{fonction.\+c}!setrects\+\_\+right@{setrects\+\_\+right}}
+\index{setrects\+\_\+right@{setrects\+\_\+right}!fonction.\+c@{fonction.\+c}}
+\subsubsection{\texorpdfstring{setrects\+\_\+right()}{setrects\_right()}}
+{\footnotesize\ttfamily void setrects\+\_\+right (\begin{DoxyParamCaption}\item[{S\+D\+L\+\_\+\+Rect}]{clip\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Toafficher image . 
+
+
+\begin{DoxyParams}{Parameters}
+{\em clip} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}

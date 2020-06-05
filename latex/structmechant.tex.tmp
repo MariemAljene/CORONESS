@@ -1,0 +1,32 @@
+\hypertarget{structmechant}{}\section{mechant Struct Reference}
+\label{structmechant}\index{mechant@{mechant}}
+
+
+Collaboration diagram for mechant\+:
+% FIG 0
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structmechant_a4dfa0424fa3bbb3af177f8ed98a55b8f}\label{structmechant_a4dfa0424fa3bbb3af177f8ed98a55b8f}} 
+S\+D\+L\+\_\+\+Rect {\bfseries position}
+\item 
+\mbox{\Hypertarget{structmechant_a82d241572d9015ef8c2f27e3a62084ff}\label{structmechant_a82d241572d9015ef8c2f27e3a62084ff}} 
+S\+D\+L\+\_\+\+Rect {\bfseries image\+A\+Afficher}
+\item 
+\mbox{\Hypertarget{structmechant_a573f12a8cf61b8834d8c58b043077e7e}\label{structmechant_a573f12a8cf61b8834d8c58b043077e7e}} 
+char {\bfseries image\+Actuelle} \mbox{[}6\mbox{]}
+\item 
+\mbox{\Hypertarget{structmechant_abb11f67c0dbf04f4dc61b6dac43fb393}\label{structmechant_abb11f67c0dbf04f4dc61b6dac43fb393}} 
+S\+D\+L\+\_\+\+Surface $\ast$ {\bfseries image\+Courante}
+\item 
+\mbox{\Hypertarget{structmechant_a0e42fa179967eca0820760c352c28a13}\label{structmechant_a0e42fa179967eca0820760c352c28a13}} 
+\hyperlink{structTailleImage}{Taille\+Image} {\bfseries taille\+Sprite}
+\item 
+\mbox{\Hypertarget{structmechant_a6d81406d6a7494cee279a9b8fc43c91e}\label{structmechant_a6d81406d6a7494cee279a9b8fc43c91e}} 
+char {\bfseries vie} \mbox{[}5\mbox{]}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+function.\+h\end{DoxyCompactItemize}
